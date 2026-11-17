@@ -135,8 +135,8 @@ export default async function AthleteDashboardPage() {
               <span className="text-xs font-semibold text-sports-green uppercase tracking-wider">
                 {profile.primary_sport ? `${profile.primary_sport} Athlete` : "Collegiate Athlete"}
               </span>
-              {profile.playingPosition && (
-                <span className="text-xs text-slate-400">&bull; {profile.playingPosition}</span>
+              {profile.playing_position && (
+                <span className="text-xs text-slate-400">&bull; {profile.playing_position}</span>
               )}
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-100 tracking-tight">

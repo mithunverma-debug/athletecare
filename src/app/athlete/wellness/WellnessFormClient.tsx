@@ -96,6 +96,15 @@ export function WellnessFormClient({ athleteId, initialRecords }: WellnessFormCl
       setValue("soreness_level", rec.soreness_level);
       setValue("activity_notes", rec.activity_notes || "");
       setValue("wellness_notes", rec.wellness_notes || "");
+    } else {
+      setValue("sleep_hours", 8);
+      setValue("sleep_quality", 8);
+      setValue("water_intake_ml", 3000);
+      setValue("mood_rating", 8);
+      setValue("fatigue_level", 3);
+      setValue("soreness_level", 2);
+      setValue("activity_notes", "");
+      setValue("wellness_notes", "");
     }
   };
 
