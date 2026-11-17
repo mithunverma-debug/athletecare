@@ -130,7 +130,7 @@ For university presentation and defense, the database contains pre-configured re
 ### Steps
 ```bash
 # 1. Clone repository
-git clone https://github.com/mithunverma-debug/athletecare.git
+git clone https://github.com/csashishgupta/athletecare.git
 cd athletecare
 
 # 2. Install dependencies
@@ -141,8 +141,8 @@ npm install
 cp .env.example .env.local
 
 # Add your Supabase credentials:
-# NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-# NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+# NEXT_PUBLIC_SUPABASE_URL=https://kvruyhkyknldhhsvhflt.supabase.co
+# NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 # 4. Run automated tests
 node --test tests/readiness.test.mjs
